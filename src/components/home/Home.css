@@ -1,0 +1,48 @@
+.home__banner {
+  background-image: url("../../images/bg\ dev-coffee.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.home__banner h1 {
+  font-size: 4rem;
+  text-shadow: 5px 6px rgb(52, 51, 51);
+}
+.home__subbanner {
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.home__content {
+  padding: 0 10%;
+  margin-top: 2rem;
+}
+.home__content__title {
+  display: flex;
+  justify-content: center;
+}
+.home__content__clusters {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home__content__clusters div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 99, 128);
+  flex-grow: 1;
+  height: 250px;
+  width: 31%;
+  margin: 1%;
+}
+.home__content__clusters div a {
+  color: #fff;
+  text-decoration: none;
+}

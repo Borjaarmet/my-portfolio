@@ -1,0 +1,25 @@
+.header {
+  min-height: 60px;
+  background-color: rgb(49, 115, 143);
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10%;
+}
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.header__nav a:hover {
+  transition: 150ms;
+  border: 2px solid #fff;
+}
